@@ -1,3 +1,9 @@
+# TODO APP
+
+## Description
+
+Basic project based on the [todoist application](https://todoist.com/?lang=en)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
