@@ -13,5 +13,4 @@ const firebaseConfig = firebase.initializeApp({
   appId: REACT_APP_ID
 })
 
-// hello world
 export { firebaseConfig as firebase }
