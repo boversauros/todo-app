@@ -1,14 +1,17 @@
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 
+const { REACT_APP_API_KEY, REACT_APP_AUTH_DOMAIN, REACT_APP_DB_URL, REACT_APP_PROJECT_ID, REACT_APP_STORAGE_BUCKET, REACT_APP_MSG_SENDER_ID, REACT_APP_ID } = process.env
+
 const firebaseConfig = firebase.initializeApp({
-  apiKey: 'AIzaSyAKagbjgLWWovEul11DyMpOY-BkfGlgeTI',
-  authDomain: 'todo-app-45c21.firebaseapp.com',
-  databaseURL: 'https://todo-app-45c21.firebaseio.com',
-  projectId: 'todo-app-45c21',
-  storageBucket: 'todo-app-45c21.appspot.com',
-  messagingSenderId: '637914160506',
-  appId: '1:637914160506:web:6d762f46767a0aeb2d8ac3'
+  apiKey: REACT_APP_API_KEY,
+  authDomain: REACT_APP_AUTH_DOMAIN,
+  databaseURL: REACT_APP_DB_URL,
+  projectId: REACT_APP_PROJECT_ID,
+  storageBucket: REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: REACT_APP_MSG_SENDER_ID,
+  appId: REACT_APP_ID
 })
 
+// hello world
 export { firebaseConfig as firebase }
