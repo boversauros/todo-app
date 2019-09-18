@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaPizzaSlice } from 'react-icons/fa'
+import './styles.scss'
 
 export const Header = () => {
   return (

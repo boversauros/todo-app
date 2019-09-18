@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaChevronDown, FaInbox, FaRegCalendarAlt, FaRegCalendar } from 'react-icons/fa'
+import './styles.scss'
 
 export const Sidebar = () => {
   return (
